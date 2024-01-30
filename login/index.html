@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwindcss</title>
+    <link rel="stylesheet" href="./styles/app.css">
+
+</head>
+<body class="flex justify-center items-center mt-8 h-full min-w-full my-auto bg-gradient-to-r from-red-500 to-indigo-600">
+    <!-- <div  class="animate-[wiggle_1s_ease-in-out_infinite]"> -->
+        <main class=" flex-none md:flex w-full max-w-4xl p-2 bg-white border border-gray-300 bg-opacity-30 rounded-xl">
+            <div class=" w-[100%] md:w-[50%]  h-auto me-3">
+                <img src="img/prompthero-prompt-5e252268879.webp"class="w-full h-full" alt="">
+            </div>
+            <div class="w-[100%] md:w-[50%] h-auto bg-white pb-4 ">
+                <form action="" onsubmit="return _Form()" name="form">
+                    <h3 class=" text-center text-2xl text-fuchsia-950 mt-10 font-bold mb-6 ">Registration Form</h3>
+                    <div class="first">
+                        <input type="text" autofocus required placeholder="First Name" class=" focus:outline-none bg-white bg-opacity-40  mb-10 ms-3 border-b-2 border-gray-700">
+                        <input type="text" required  placeholder="Last Name" class=" focus:outline-none bg-white bg-opacity-40  mb-10 ms-3  border-b-2 border-gray-700">
+                    </div>
+
+                    <div class="wrapper1">
+                        <input type="text" id="user" name="user" placeholder="User Name "  class="w-96  outline-none focus:outline-none bg-white bg-opacity-40  mb-2 ms-3  border-b-2 border-gray-700">
+                        <label for=""id="lab" class="ps-3"></label>
+                    </div>
+
+                    <div class="wrapper1 ">
+                        <input type="text" id="email" name="email" placeholder="Email Adderss" class="w-96 mt-9 focus:outline-none bg-white bg-opacity-40  mb-2 ms-3  border-b-2 border-gray-700">
+                        <label for=""id="lab1" class="ps-3"></label>
+                    </div>
+
+                    <div class="wrapper1">
+                        <select required name="" id="" class="text-black font-medium mt-9 w-96 focus:outline-none bg-white bg-opacity-40  mb-10 ms-3  border-b-2 border-gray-700">
+                            <option value="gender"disabled selected >Gender</option>
+                            <option value="male">Male</option>
+                            <option value="famel">Femal</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="wrapper1">
+                        <input type="text" name="pass" placeholder="password" class="w-96 focus:outline-none bg-white bg-opacity-40 mb-3 ms-3  border-b-2 border-gray-700">
+                        <label for=""id="lab2" class="ps-3 "></label>
+                    </div>
+
+                    <div class="wrapper1">
+                        <input name="pass2" type="password"placeholder="Coniform password " class="mt-9 w-96 focus:outline-none bg-white bg-opacity-40  mb-3 ms-3  border-b-2 border-gray-700">
+                    <label for=""id="lab3"class="ps-3"></label>
+                    </div>
+                    <div class="flex justify-center items-center mt-9">
+                        <button class="font-semibold bg-gray-400 w-72 h-10">Register</button>
+                    </div>
+                </form>
+            </div>
+        
+        </main>
+    </div>
+    <script src="js/reg.js"></script>
+</body>
+</html>
